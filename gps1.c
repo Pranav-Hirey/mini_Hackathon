@@ -1,11 +1,9 @@
-/*
- * RELATIV-GPS : GPS positioning with and without Einstein
- * C Programming Mini Hackathon
- *
- * Derives the relativistic drift of GPS satellite clocks from
- *     dtau/dt = 1 + Phi/c^2 - v^2/(2c^2)
- * and feeds it into a GPS position solver, correction ON vs OFF
- */
+//
+//RELATIV-GPS : GPS positioning with and without Einstein
+// C Programming Mini Hackathon
+// Derives the relativistic drift of GPS satellite clocks from
+// dtau/dt = 1 + Phi/c^2 - v^2/(2c^2)
+//and feeds it into a GPS position solver, correction ON vs OFF
 
 #include <stdio.h>
 #include <stdlib.h>
